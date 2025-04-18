@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Data%20Science/Euron%20Plus/MLOPS/End-to-End-Youtube-Sentiment/mlruns/935285616061599583/8156121032c34fecadafe8534dc528a3/artifacts
+end_time: 1744968957475
+entry_point_name: ''
+experiment_id: '935285616061599583'
+lifecycle_stage: active
+run_id: 8156121032c34fecadafe8534dc528a3
+run_name: selective-gull-924
+run_uuid: 8156121032c34fecadafe8534dc528a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744968956673
+status: 3
+tags: []
+user_id: HEART
