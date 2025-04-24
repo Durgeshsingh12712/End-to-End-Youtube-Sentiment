@@ -54,5 +54,5 @@ mlflow server -h 0.0.0.0 --default-artifact-root s3://s3bucketname # s3bucketnam
 #set uri in your local terminal and in your code 
 export MLFLOW_TRACKING_URI=http://ec2-102-50-36-44.compute-1.amazonaws.com:5000/
 
-![My Image]("https://github.com/Durgeshsingh12712/Data-All/blob/main/Youtube%20Sentiment%20Analysis/Comment%20Anlysis%20on%20Youtube%20Chrome%20Plugin.png")
+![My Image](https://github.com/Durgeshsingh12712/Data-All/blob/main/Youtube%20Sentiment%20Analysis/Comment%20Anlysis%20on%20Youtube%20Chrome%20Plugin.png)
 
