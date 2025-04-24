@@ -10,6 +10,9 @@ dvc dag
 
 ## AWS
 
+# Create ECR repo to store/save docker image
+- save the URI: 381509086193.dkr.ecr.us-east-1.amazonaws.com/youtube
+
 aws configure
 
 ### MLflow on AWS Setup:
