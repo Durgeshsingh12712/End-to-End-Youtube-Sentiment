@@ -23,29 +23,41 @@ Create a s3 bucket
 Create EC2 machine (Ubuntu) & add Security groups 5000 port
 Run the following command on EC2 machine
 
-sudo apt update
+Note: Do the port mapping to this port:- 8501
 
-sudo apt install python3-pip
+```bash
+sudo apt-get update -y
 
-sudo apt install pipenv
+sudo apt-get upgrade
 
-sudo apt install virtualenv
+#Install Docker
 
-mkdir mlflow
+curl -fsSL https://get.docker.com -o get-docker.sh
 
-cd mlflow
+sudo sh get-docker.sh
 
-pipenv install mlflow
+sudo usermod -aG docker ubuntu
 
-pipenv install awscli
+newgrp docker
+```
 
-pipenv install boto3
 
-pipenv shell
 
 
 ## Then set aws credentials
 aws configure
+
+# Setup github secrets:
+
+    AWS_ACCESS_KEY_ID=
+
+    AWS_SECRET_ACCESS_KEY=
+
+    AWS_REGION = us-east-1
+
+    AWS_ECR_LOGIN_URI = demo>> 
+
+    ECR_REPOSITORY_NAME = simple-app
 
 
 #Finally 
