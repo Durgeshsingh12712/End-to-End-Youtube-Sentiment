@@ -26,7 +26,6 @@ dvc dag
 
 	2. ECR: Elastic Container registry to save your docker image in aws
 
-    3. Create a s3 bucket
 
     Run the following command on EC2 machine
 
@@ -91,6 +90,18 @@ AWS_ECR_LOGIN_URI
 ECR_REPOSITORY_NAME
 
 ```
-
+### Local Run
 ![My Image](https://github.com/Durgeshsingh12712/Data-All/blob/main/Youtube%20Sentiment%20Analysis/Comment%20Anlysis%20on%20Youtube%20Chrome%20Plugin.png)
 
+### Deploy And Run On AWS
+
+# CICD
+![My Image](https://github.com/Durgeshsingh12712/Data-All/blob/main/Youtube%20Sentiment%20Analysis/1.cicd.png)
+# CICD Succefully Deployed by Github Action
+![My Image](https://github.com/Durgeshsingh12712/Data-All/blob/main/Youtube%20Sentiment%20Analysis/2.cicd%20successfully%20deploy.png)
+# ECR Image
+![My Image](https://github.com/Durgeshsingh12712/Data-All/blob/main/Youtube%20Sentiment%20Analysis/3.ECR%20IMAGE.png)
+# Lunch By AWS on WEB
+![My Image](https://github.com/Durgeshsingh12712/Data-All/blob/main/Youtube%20Sentiment%20Analysis/4.AWS%20web%20Page.png)
+# Then Analysis
+![My Image](https://github.com/Durgeshsingh12712/Data-All/blob/main/Youtube%20Sentiment%20Analysis/5.analysis.png)
